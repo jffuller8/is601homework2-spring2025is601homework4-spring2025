@@ -6,9 +6,8 @@
 2. pip install -r requirements.txt
 
 ## Testing
-
-1. pytest
-2. pytest --pylint
+Added a new command to pytest to generate N number of records, so that you can run the following command: pytest --num_records=100 to generate 100 records
+1. pytest --num_records=100 
 
 ## Using Calculator
 
